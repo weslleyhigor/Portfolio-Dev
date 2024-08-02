@@ -1,0 +1,132 @@
+.contact__container{
+    min-height: 100vh;
+    width: 100%;
+
+    box-sizing: border-box;
+
+    background: var(--bg-color-primary);
+}
+
+.contact__container > div {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 100%;
+    max-width: 90rem;
+
+    gap: 5rem;
+    padding: 5rem;
+    padding-bottom: 0;
+
+    margin: 0 auto;
+
+    font-family: var(--ft-family-primary);
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    line-height: 3rem;
+
+    color: var(--ft-color-secundary);
+}
+
+form {
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    box-sizing: border-box;
+
+    gap: 5rem;
+}
+
+#channel__option__input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1;
+
+    height: 6rem;
+    padding: 0 2rem;
+
+    border-bottom: .2rem solid var(--ft-color-primary);
+    border-radius: .9rem;
+    color: var(--ft-color-primary);
+    background-color: var(--bg-color-secundary);
+}
+
+#channel__option__input svg {
+    width: 3rem;
+}
+
+#channel__option__input:hover {
+    cursor: pointer;
+}
+
+.channel__options__list {
+    position: absolute;
+    top: 5rem;
+
+    width: 100%;
+    gap: 1rem;
+    padding: 2rem 0 1rem 0;
+
+    border-bottom: .2rem solid var(--ft-color-primary);
+    border-radius: 0 0 .9rem .9rem;
+    color: var(--ft-color-primary);
+    background-color: var(--bg-color-secundary);
+}
+
+.channel__options__list li {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    padding: 0 2rem;
+
+    background-color: var(--ft-color-secundary);
+}
+
+.channel__options__list li:hover {
+    background-color: var(--ft-color-primary);
+    color: var(--ft-color-secundary);
+    cursor: pointer;
+}
+
+
+textarea {
+    height: 20rem;
+    width: auto;
+
+    outline: none;
+    resize: none;
+    padding: 2rem;
+    border-radius: .9rem;
+
+    font-family: var(--ft-family-primary);
+    font-size: 1.6rem;
+    color: var(--ft-color-primary);
+}
+
+.submit__form__button {
+    height: 6rem;
+    width: 20rem;
+    border-radius: .9rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+
+    background-color: var(--bg-color-secundary);
+    color: var(--ft-color-primary);    
+}
+
+.submit__form__button:hover {
+    border: 2px solid var(--ft-color-secundary);
+    background-color: transparent;
+    color: var(--ft-color-secundary);
+}

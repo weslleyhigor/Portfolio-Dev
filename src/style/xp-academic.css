@@ -1,0 +1,100 @@
+.xp__academic__container{
+    min-height: 100vh;
+    width: 100%;
+
+    background: var(--bg-color-primary);
+}
+
+.xp__academic__container > div {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 100%;
+    max-width: 90rem;
+
+    gap: 5rem;
+    padding: 5rem;
+    margin: 0 auto;
+
+    font-family: var(--ft-family-primary);
+
+    line-height: 3rem;
+
+    color: var(--ft-color-secundary);
+}
+
+.xp__academic__card__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 3rem;
+}
+
+
+.xp__academic__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    height: 22rem;
+    width: 20rem;
+    padding: 1.6rem;
+    
+    gap: .5rem;
+
+    border-radius: .9rem;
+
+    background-color: var(--ft-color-secundary);
+    color: var(--ft-color-primary);
+}
+
+.xp__academic__card img {
+    width: 4rem;
+    margin-bottom: 1rem;
+}
+
+.school__name {
+    display: flex;
+
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 800;
+    height: 18rem;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.course__name, .course__date {
+    display: flex;
+
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    height: 18rem;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+}
+
+@media (min-width: 850px) {  
+    .xp__academic__card__container {
+        justify-content: start;
+    }
+}

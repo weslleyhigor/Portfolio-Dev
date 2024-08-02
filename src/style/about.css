@@ -1,0 +1,36 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 100%;
+    max-width: 90rem;
+
+    gap: 5rem;
+    padding: 10rem 5rem 5rem 5rem;
+
+    background-color: var(--bg-color-secundary);
+
+    font-family: var(--ft-family-primary);
+
+    text-align: justify;
+    line-height: 3rem;
+}
+
+.about__container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about__container > .title {
+    color: var(--ft-color-primary);
+}
+
+.about__container p {
+    color: var(--ft-color-primary);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+  
