@@ -59,28 +59,31 @@
 }
 
 .download__button-cv-pdf {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: var(--ft-color-primary);
-
-    height: 6rem;
-    width: 100%;
-    max-width: 450px;
-    padding: 0 1rem;
-    gap: 2.5rem;
-
     border-radius: .9rem;
+    background-color: var(--ft-color-secundary);
+}
+
+.download__button-cv-pdf > a {
+    color: var(--ft-color-primary);
 
     font-family: var(--ft-family-primary);
     font-size: 2.4rem;
     font-weight: 500;
 
-    background-color: var(--ft-color-secundary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    
+    height: 6rem;
+    width: 100%;
+    max-width: 450px;
+    padding: 0 1rem;
+
+    text-decoration: none;
 }
 
-.download__button-cv-pdf svg {
+.download__button-cv-pdf > a svg {
     width: 3rem;
 }
 
