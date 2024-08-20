@@ -62,6 +62,8 @@
     padding: 0 1rem;
     border-radius: .9rem;
     background-color: var(--ft-color-secundary);
+
+    width: 100%;
 }
 
 .download__button-cv-pdf > a {
