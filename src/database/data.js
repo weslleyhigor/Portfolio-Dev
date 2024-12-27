@@ -78,7 +78,7 @@ export const xpAcademic = [
     {
         logoUrl: './src/img/experiences/descomplica-icon.svg',
         nameCompany: 'FACULDADE DESCOMPLICA',
-        occupation: 'Engenharia de Software',
+        occupation: 'Análise e Desenvolvimento de Sistemas',
         timeStart: '2024',
         timeEnd: 'Cursando', 
     },
