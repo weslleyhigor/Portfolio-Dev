@@ -74,6 +74,14 @@ export const skillsBackend = [
     }, 
 ]
 
+export const skillsLowCode = [
+    {
+        logoUrl: './src/img/tecnologias/Career Journey Badge_Developer_Associate2.svg',
+        name: 'Servicenow - Associate Application Developer',
+        category: 'lowcode'
+    },
+]
+
 export const xpAcademic = [
     {
         logoUrl: './src/img/experiences/descomplica-icon.svg',
@@ -84,9 +92,9 @@ export const xpAcademic = [
     },
     
     {
-        logoUrl: './src/img/experiences/Career Journey Badge_Developer_Associate2.svg',
+        logoUrl: './src/img/experiences/servicenow developer.svg',
         nameCompany: 'SERVICENOW',
-        occupation: 'Associate Application Developer',
+        occupation: 'Application Developer Career Journey',
         timeStart: '2024',
         timeEnd: 'Cursando', 
     },
