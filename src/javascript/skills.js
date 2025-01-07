@@ -25,7 +25,7 @@ export function createCardSkills () {
     })
 
     skillsLowCode.forEach((element)=>{
-        cardBackend.insertAdjacentHTML("beforeend", `
+        cardLowcode.insertAdjacentHTML("beforeend", `
             <li class="skill__lowcode__card">
                 <img src="${element.logoUrl}">
                 <p>${element.name}</p>
