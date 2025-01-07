@@ -76,7 +76,7 @@ export const skillsBackend = [
 
 export const skillsLowCode = [
     {
-        logoUrl: './src/img/tecnologias/Career Journey Badge_Developer_Associate2.svg',
+        logoUrl: './src/img/tecnologias/Associate Application Developer.svg',
         name: 'Servicenow - Associate Application Developer',
         category: 'lowcode'
     },
