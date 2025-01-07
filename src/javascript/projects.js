@@ -1,16 +1,16 @@
-import { projects } from "../database/data.js"
+// import { projects } from "../database/data.js"
 
-const containerProjects = document.querySelector('.projects__card__container')
+// const containerProjects = document.querySelector('.projects__card__container')
 
-export function createCardProject () {
+// export function createCardProject () {
 
-    projects.forEach((element) => {
-        console.log(element)
+//     projects.forEach((element) => {
+//         console.log(element)
 
-        containerProjects.insertAdjacentHTML("beforeend", `
-            <li class="project__card">
-              <img src="${element.imgPreviewUrl}">
-            </li>
-        `)
-    })
-}
+//         containerProjects.insertAdjacentHTML("beforeend", `
+//             <li class="project__card">
+//               <img src="${element.imgPreviewUrl}">
+//             </li>
+//         `)
+//     })
+// }
