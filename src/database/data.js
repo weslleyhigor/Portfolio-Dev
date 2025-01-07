@@ -43,17 +43,17 @@ export const skillsBackend = [
         category: 'backend', 
     }, 
 
-    {
-        logoUrl: './src/img/tecnologias/python-icon.svg',
-        name: 'PYTHON',
-        category: 'backend', 
-    }, 
+    // {
+    //     logoUrl: './src/img/tecnologias/python-icon.svg',
+    //     name: 'PYTHON',
+    //     category: 'backend', 
+    // }, 
 
-    {
-        logoUrl: './src/img/tecnologias/aws-icon.svg',
-        name: 'AWS',
-        category: 'backend', 
-    }, 
+    // {
+    //     logoUrl: './src/img/tecnologias/aws-icon.svg',
+    //     name: 'AWS',
+    //     category: 'backend', 
+    // }, 
 
     {
         logoUrl: './src/img/tecnologias/sql-icon.svg',
