@@ -23,7 +23,11 @@
 }
 
 .home__container__profile > img {
-    width: 22rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+
+    object-fit: cover;
 }
 
 .home__container__profile__name {
@@ -119,6 +123,7 @@
     }
 
     .home__container__profile > img {
+        height: 20rem;
         width: 30rem;
     }
 
