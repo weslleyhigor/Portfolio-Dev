@@ -1,11 +1,11 @@
-.xp__professional__container{
+.skill__lowcode__container {
     min-height: 100vh;
     width: 100%;
 
     background: var(--bg-color-primary);
 }
 
-.xp__professional__container > div {
+.skill__lowcode__container > div {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -25,7 +25,7 @@
     color: var(--ft-color-secundary);
 }
 
-.xp__professional__card__container {
+.skill__lowcode__card__container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,20 +37,18 @@
 }
 
 
-.xp__professional__card {
+.skill__lowcode__card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
+
+    height: 15rem;
+    width: 25rem;
+    padding: 1.6rem;
+    gap: 1rem;
 
     text-align: center;
-
-    height: 22rem;
-    width: 20rem;
-    padding: 1.6rem;
-    
-    gap: .5rem;
 
     border-radius: .9rem;
 
@@ -58,43 +56,18 @@
     color: var(--ft-color-primary);
 }
 
-.xp__professional__card img {
-    width: 4rem;
-    margin-bottom: 1rem;
+.skill__lowcode__card img {
+    width: 6rem;
 }
 
-.company__name {
-    display: flex;
-
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+.skill__lowcode__card p {
+    font-size: 1.6rem;
     font-weight: 800;
-    height: 18rem;
     width: 100%;
-
-    justify-content: center;
-    align-items: center;
-}
-
-.employment__name, .employment__date {
-    display: flex;
-
-    font-size: 1.2rem;
-    line-height: 2.2rem;
-    font-weight: 500;
-    height: 18rem;
-    width: 100%;
-
-    justify-content: center;
-    align-items: center;
-}
-
-.name {
-    text-align: center;
 }
 
 @media (min-width: 850px) {  
-    .xp__professional__card__container {
+    .skill__lowcode__card__container {
         justify-content: start;
     }
 }

@@ -2,7 +2,7 @@
     min-height: 100vh;
     width: 100%;
 
-    background: var(--bg-color-primary);
+    background: var(--bg-color-secundary);
 }
 
 .xp__academic__container > div {
@@ -22,7 +22,7 @@
 
     line-height: 3rem;
 
-    color: var(--ft-color-secundary);
+    color: var(--ft-color-primary);
 }
 
 .xp__academic__card__container {
@@ -54,8 +54,8 @@
 
     border-radius: .9rem;
 
-    background-color: var(--ft-color-secundary);
-    color: var(--ft-color-primary);
+    background-color: var(--ft-color-primary);
+    color: var(--ft-color-secundary);
 }
 
 .xp__academic__card img {

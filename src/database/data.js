@@ -76,10 +76,17 @@ export const skillsBackend = [
 
 export const skillsLowCode = [
     {
-        logoUrl: './src/img/tecnologias/Associate Application Developer.svg',
-        name: 'Servicenow - Associate Application Developer',
+        logoUrl: './src/img/tecnologias/Certified Welcome to ServiceNow.png',
+        name: 'Micro-Certification Welcome to ServiceNow',
         category: 'lowcode'
     },
+
+    {
+        logoUrl: './src/img/tecnologias/Associate Application Developer.svg',
+        name: 'Servicenow Associate Application Developer',
+        category: 'lowcode'
+    },
+
 ]
 
 export const xpAcademic = [
