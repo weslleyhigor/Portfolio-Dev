@@ -116,13 +116,20 @@ export const xpAcademic = [
 ]
 
 export const xpProfessional = [
+    {
+        logoUrl: './src/img/experiences/mpac-icon.jpg',
+        nameCompany: 'MPAC - MINISTERIO PUBLICO DO ESTADO DO ACRE',
+        occupation: 'Desenvolvedor web Front-End',
+        timeStart: '2025',
+        timeEnd: 'Atualmente',
+    },
  
     {
         logoUrl: './src/img/experiences/boticario-icon.png',
         nameCompany: 'O BOTICÁRIO',
         occupation: 'Consultor de Experiência do Cliente - CEX',
         timeStart: '2022',
-        timeEnd: 'Atualmente',
+        timeEnd: '2025',
     },
     
     {
