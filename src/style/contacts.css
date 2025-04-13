@@ -6,7 +6,7 @@
 
     padding-bottom: 2rem;
 
-    background: var(--bg-color-primary);
+    background: var(--bg-color-secundary);
 }
 
 .contact__container > div {
@@ -30,7 +30,7 @@
 
     line-height: 3rem;
 
-    color: var(--ft-color-secundary);
+    color: var(--ft-color-primary);
 }
 
 form {
@@ -54,7 +54,7 @@ form {
     height: 6rem;
     padding: 0 2rem;
 
-    border-bottom: .2rem solid var(--ft-color-primary);
+    border: .2rem solid var(--ft-color-primary);
     border-radius: .9rem;
     color: var(--ft-color-primary);
     background-color: var(--bg-color-secundary);
@@ -79,7 +79,7 @@ form {
     border-bottom: .2rem solid var(--ft-color-primary);
     border-radius: 0 0 .9rem .9rem;
     color: var(--ft-color-primary);
-    background-color: var(--bg-color-secundary);
+    background-color: #eceaea;
 }
 
 .channel__options__list li {
@@ -91,13 +91,12 @@ form {
     height: 6rem;
     padding: 0 2rem;
 
-    background-color: var(--ft-color-secundary);
 }
 
-.channel__options__list li:hover {
-    background-color: var(--ft-color-primary);
-    color: var(--ft-color-secundary);
+.channel__options__list li:hover {      
+    color: var(--ft-color-primar);
     cursor: pointer;
+    background-color: var(--bg-color-secundary);
 }
 
 
@@ -113,6 +112,7 @@ textarea {
     font-family: var(--ft-family-primary);
     font-size: 1.6rem;
     color: var(--ft-color-primary);
+    border: 2px solid var(--ft-color-primary);
 }
 
 .submit__form__button {
@@ -123,12 +123,12 @@ textarea {
     font-weight: 600;
     text-align: center;
 
-    background-color: var(--bg-color-secundary);
-    color: var(--ft-color-primary);    
+    background-color: var(--ft-color-primary);
+    color: var(--ft-color-secundary);    
 }
 
 .submit__form__button:hover {
-    border: 2px solid var(--ft-color-secundary);
+    border: 2px solid var(--ft-color-primary);
     background-color: transparent;
-    color: var(--ft-color-secundary);
+    color: var(--ft-color-primary);
 }

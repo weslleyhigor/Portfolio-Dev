@@ -2,7 +2,7 @@
     min-height: 100vh;
     width: 100%;
 
-    background: var(--bg-color-secundary);
+    background: var(--bg-color-primary);
 }
 
 .certificate__container > div {
@@ -22,7 +22,7 @@
 
     line-height: 3rem;
 
-    color: var(--ft-color-primary);
+    color: var(--ft-color-secundary);
 }
 
 .certificate__card__container {
@@ -51,9 +51,6 @@
     gap: 1rem;
 
     border-radius: .9rem;
-
-    background-color: var(--ft-color-primary);
-    color: var(--ft-color-secundary);
 
     transition: 1s;
 

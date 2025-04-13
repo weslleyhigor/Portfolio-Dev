@@ -99,14 +99,6 @@ export const xpAcademic = [
     },
     
     {
-        logoUrl: './src/img/experiences/servicenow developer.svg',
-        nameCompany: 'SERVICENOW',
-        occupation: 'Application Developer Career Journey',
-        timeStart: '2024',
-        timeEnd: 'Cursando', 
-    },
-    
-    {
         logoUrl: './src/img/experiences/kenzie-icon.jpg',
         nameCompany: 'KENZIE ACADEMY',
         occupation: 'Dev Web Full-Stack',
