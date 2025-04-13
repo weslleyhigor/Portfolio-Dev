@@ -118,8 +118,8 @@ export const xpAcademic = [
 export const xpProfessional = [
     {
         logoUrl: './src/img/experiences/mpac-icon.jpg',
-        nameCompany: 'MPAC - MINISTERIO PUBLICO DO ESTADO DO ACRE',
-        occupation: 'Desenvolvedor web Front-End',
+        nameCompany: 'MINISTÉRIO PÚBLICO DO ESTADO DO ACRE',
+        occupation: 'Desenvolvedor Front-End',
         timeStart: '2025',
         timeEnd: 'Atualmente',
     },
